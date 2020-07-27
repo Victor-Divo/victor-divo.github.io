@@ -4,9 +4,9 @@
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <title>Victor's Portfolio edit</title>
+        <title>Victor's Portofolio</title>
     </head>
-    <body class="mt-5">
+    <body class="mt-2">
         <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
                 <a class="navbar-brand" href="#">Navbar</a>
@@ -16,20 +16,23 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="#home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Features</a>
+                            <a class="nav-link" href="#about">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Pricing</a>
+                            <a class="nav-link" href="#portofolio">Portofolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact Us</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
 
-        <div class="jumbotron jumbotron-fluid">
+        <div class="jumbotron jumbotron-fluid" id="home" style="padding-top: 80px;" >
             <div class="container text-center">
                 <img src="img/myfoto.jpg" width="25%" class="rounded-circle img-thumbnail">
                 <h1 class="display-4">Victor Divo</h1>
@@ -37,7 +40,7 @@
             </div>
         </div>
 
-        <section id="about" class="about">
+        <section id="about" class="about"style="padding-top: 70px;">
             <div class="container">
                 <div class="row mb-4">
                     <div class="col text-center">
@@ -63,11 +66,11 @@
             </div>
         </section>
 
-        <section id="portfolio" class="portfolio bg-light pb-4">
+        <section id="portofolio" class="portofolio bg-light pb-4 pt-5">
             <div class="container">
                 <div class="row mb-4 pt-4">
                     <div class="col text-center">
-                        <h2>Portfolio</h2>
+                        <h2>Portofolio</h2>
                     </div>
                 </div>
 
@@ -76,7 +79,10 @@
                         <div class="card" style="width: 18rem;">
                             <img src="img/wkwknet.png" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <h5 class="card-text">Music Sharing wkwk.net</h5>
+                                <p class="card-text">Merupakan sebuah website yang menggunakan html, css, dan php digunakan untuk 
+                                    membagikan musik. terdapat bebapa level hak akses yaitu guest, user, dan 
+                                    admin, yang masing-masing memiliki akses tertentu </p>
                             </div>
                             </div>
                     </div>
@@ -84,7 +90,9 @@
                         <div class="card" style="width: 18rem;">
                             <img src="img/smk7web.png" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <h5 class="card-text">Website WK Humas SMKN 7 Semarang</h5>
+                                <p class="card-text">Merupakan sebuah website statis yang menggunakan html dan css sederhana.
+                                     menampilkan informasi mengenai Wakil Kepala sekolah bidang humas SMKN 7 Semarang</p>
                             </div>
                             </div>
                     </div>
@@ -92,7 +100,10 @@
                         <div class="card" style="width: 18rem;">
                             <img src="img/livewirecrud.PNG" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <h5 class="card-text">Realtime CRUD livewire</h5>
+                                <p class="card-text">Merupakan sebuah website yang menggunakan framework laravel. 
+                                    memiliki fungsionalitas untuk melakukan realtime CRUD menggunakan bantuan livewire
+                                </p>
                             </div>
                             </div>
                     </div>
@@ -194,7 +205,7 @@
         <!-- My CSS -->
         <style> 
         section {
-            min-height : 420px;
+            min-height : 300px;
         }
         </style>
 
