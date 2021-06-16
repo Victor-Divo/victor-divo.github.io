@@ -1,0 +1,60 @@
+:root {
+  --Navbar: #e93b81;
+  --Accent2: #f5abc9;
+  --Accent1: #ffe5e2;
+}
+
+nav {
+  background-color: var(--Navbar);
+  border-radius: 0 0 0.4rem 0.4rem;
+}
+
+footer {
+  background-color: var(--Navbar);
+}
+
+.jumbotron {
+  padding-top: 6rem;
+  background-color: var(--Accent2);
+}
+
+section {
+  padding-top: 5rem;
+}
+
+#about,
+#contact {
+  background-color: var(--Accent1);
+}
+#projects {
+  background-color: var(--Accent2);
+}
+
+.wave-1 {
+  fill: var(--Accent1);
+}
+
+.wave-2 {
+  fill: var(--Accent2);
+}
+
+.footer-wave {
+  fill: var(--Navbar);
+}
+
+.card {
+  border: none;
+  border-radius: 1rem;
+  background-color: var(--Accent1);
+}
+
+.card-header {
+  background-color: transparent;
+  margin-top: 0.5rem;
+  border-bottom: none;
+}
+
+.projects-image {
+  width: 90%;
+  margin: 0 auto;
+}
